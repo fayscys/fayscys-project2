@@ -1091,21 +1091,20 @@ footer a i{
         padding: 1rem 3%;
     }
 
-    /* New code for moving the button and text animation slightly to the left */
+    /* Adjusting the home section text and button */
+    .home-content {
+        transform: translateX(-20px);
+    }
+    
     #home h1,
     #home p,
     #home .button {
-        animation: slideLeftSmall 1s ease-in-out;
+        animation: none; /* Remove animation if not needed */
     }
-
-    @keyframes slideLeftSmall {
-        0% {
-            transform: translateX(20px);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(0);
-            opacity: 1;
-        }
+    
+    .home-content h1,
+    .home-content p,
+    .home-content .button {
+        margin-left: -20px;
     }
 }
