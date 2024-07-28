@@ -1013,97 +1013,23 @@ footer a i{
     }
 }
 
-@media (max-width: 420px) {
-    .home-content h1 {
-        font-size: 1.5rem;
+@media(max-width:420px){
+    html{
+        font-size: 80%;
     }
-
-    .home-content h3 {
+    footer p{
+        font-size: .6rem;
+    }
+    .filter-buttons .button{
+        font-size: .8rem;
+    }
+    .img-about img{
+        width: 300px;
+    }
+    .info-about1,.info-about2,.info-about3{
+        display: none;
+    }
+    .img-about p{
         font-size: 1rem;
-    }
-
-    .home-content p {
-        font-size: 0.9rem;
-    }
-
-    .btn-box {
-        width: 100px;
-    }
-
-    .btn-box .btn {
-        font-size: 0.8rem;
-        padding: 5px;
-    }
-
-    .about-content {
-        grid-template-columns: 1fr;
-    }
-
-    .about-img img {
-        width: 100%;
-    }
-
-    .about-text h2 {
-        font-size: 1.5rem;
-    }
-
-    .about-text h4 {
-        font-size: 1rem;
-    }
-
-    .about-text p {
-        font-size: 0.8rem;
-    }
-
-    .skills {
-        grid-template-columns: 1fr;
-    }
-
-    .skills-content {
-        grid-template-columns: 1fr;
-    }
-
-    .skill-item h2 {
-        font-size: 1.5rem;
-    }
-
-    .service-box {
-        grid-template-columns: 1fr;
-    }
-
-    .service-item {
-        padding: 0.5rem;
-    }
-
-    .service-item h3 {
-        font-size: 1rem;
-    }
-
-    .service-item p {
-        font-size: 0.7rem;
-    }
-
-    .projects {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-box {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-left h2, .contact-right h2 {
-        font-size: 1.2rem;
-    }
-
-    .contact-left p {
-        font-size: 0.7rem;
-    }
-
-    .contact-left li {
-        font-size: 0.7rem;
-    }
-
-    .contact-left li a {
-        font-size: 0.9rem;
     }
 }
