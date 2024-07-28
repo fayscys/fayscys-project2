@@ -1011,7 +1011,8 @@ footer a i{
         font-size: .8rem;
     }
 }
-@media(max-width: 420px) {
+
+@media (max-width: 420px) {
     html {
         font-size: 80%;
         overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -1056,12 +1057,12 @@ footer a i{
         margin: 2rem;
         position: relative;
     }
-    .home-content {
-        margin-left: -1rem; /* Move entire home content a bit left */
-    }
     .home-content h3 {
         font-size: 1.6rem;
-        margin-left: -9.05px;
+        margin-left: 10px; /* Adjust this value as needed */
+    }
+    .home-content h3 span {
+        margin-left: 5px; /* Adjust this value as needed */
     }
     .home-content h1 {
         font-size: 4rem;
