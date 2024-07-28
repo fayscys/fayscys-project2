@@ -28,26 +28,26 @@
         0 0 150px rgba(18, 247, 255, 0.3);
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     height: .5rem;
     width: .5rem;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background: var(--second-bg-color);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: var(--hover-color);
     border-radius: 5rem;
 }
 
 /* Firefox */
 html {
-    scrollbar-width: thin; 
-    scrollbar-color: #8f8f8f #e0e0e0; 
-  }
-  
+    scrollbar-width: thin;
+    scrollbar-color: var(--hover-color) var(--second-bg-color);
+}
+
 
 body{
     font-family: "Poppins", sans-serif;
@@ -934,13 +934,6 @@ footer a i{
 }
 
 
-
-
-
-
-
-
-
 /*break points*/
 @media(max-width:991px){
     header,
@@ -1062,6 +1055,9 @@ footer a i{
         flex-direction: column-reverse;
         margin: 2rem;
         position: relative;
+    }
+    .home-content {
+        margin-left: -1rem; /* Move entire home content a bit left */
     }
     .home-content h3 {
         font-size: 1.6rem;
