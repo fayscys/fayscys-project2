@@ -1065,14 +1065,19 @@ footer a i{
     }
     .home-content h3 {
         font-size: 1.6rem;
+        margin-left: -10px; /* Adjusted value */
     }
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 2rem; /* Reduced font size */
+        text-align: left;
+        margin-left: -10px; /* Adjusted value */
     }
     .home-content p {
         max-width: 90%;
         margin: 0 auto;
         font-size: 1rem;
+        position: relative;
+        right: -10px; /* Adjusted value */
     }
     .home-img img {
         width: 90%;
@@ -1091,20 +1096,16 @@ footer a i{
         padding: 1rem 3%;
     }
 
-    /* Adjusting the home section text and button */
+    /* Centering the home section text and button */
     .home-content {
-        transform: translateX(-20px);
-    }
-    
-    #home h1,
-    #home p,
-    #home .button {
-        animation: none; /* Remove animation if not needed */
+        text-align: left;
     }
     
     .home-content h1,
+    .home-content h3,
+    .home-content h5,
     .home-content p,
     .home-content .button {
-        margin-left: -20px;
+        margin-left: -10px; /* Adjusted value */
     }
 }
