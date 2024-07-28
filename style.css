@@ -1032,4 +1032,19 @@ footer a i{
     .img-about p{
         font-size: 1rem;
     }
+    .text-animation {
+        font-size: 1rem; /* Adjust as needed */
+    }
+
+    /* Reduce menu size */
+    nav ul li {
+        padding: 0.5rem; /* Adjust as needed */
+        font-size: 0.8rem; /* Adjust as needed */
+    }
+
+    /* Fix sections to prevent showing other background */
+    section {
+        width: 100vw;
+        overflow: hidden;
+    }
 }
