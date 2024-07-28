@@ -42,11 +42,12 @@
     border-radius: 5rem;
 }
 
-* {
-    scrollbar-width: thin;
-    scrollbar-color: var(--hover-color) var(--second-bg-color);
-}
-
+/* Firefox */
+html {
+    scrollbar-width: thin; 
+    scrollbar-color: #8f8f8f #e0e0e0; 
+  }
+  
 
 body{
     font-family: "Poppins", sans-serif;
@@ -1017,7 +1018,6 @@ footer a i{
         font-size: .8rem;
     }
 }
-
 @media(max-width: 420px) {
     html {
         font-size: 80%;
@@ -1089,23 +1089,5 @@ footer a i{
     }
     .footer {
         padding: 1rem 3%;
-    }
-
-    /* New code for moving the button and text animation slightly to the left */
-    #home h1,
-    #home p,
-    #home .button {
-        animation: slideLeftSmall 1s ease-in-out;
-    }
-
-    @keyframes slideLeftSmall {
-        0% {
-            transform: translateX(20px);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(0);
-            opacity: 1;
-        }
     }
 }
