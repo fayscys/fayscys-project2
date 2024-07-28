@@ -1061,6 +1061,7 @@ footer a i{
     }
     .home-content h3 {
         font-size: 1.6rem;
+        margin-left: -10px;
     }
     .home-content h1 {
         font-size: 4rem;
