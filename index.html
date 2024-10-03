@@ -327,13 +327,28 @@
     </section>
 
     <!--footer section-->
-    <footer>
-        <p class="scroll-scale">Copyright &copy; 2024 by Muheebah || All Right Reserved</p>
+    <footer class="footer" id="signature-footer">
+    
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
     </footer>
 
+    <script>
+        // Fetch the signature.html file and load it into the footer
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('signature.html') 
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById('signature-footer').innerHTML += data; // Append the signature to the footer
+                })
+                .catch(error => console.log('Error loading signature:', error));
+        });
+    </script>
     <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-
